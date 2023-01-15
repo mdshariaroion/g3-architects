@@ -45,9 +45,9 @@ nav ul{
     text-align: center;
 }
 .banner-title{  
-font-weight: 700;
-font-size: 64px;
-text-align:center;
+    font-weight: 700;
+    font-size: 64px;
+    text-align:center;
 }
 .banner-discription{
     color: #727272;
@@ -64,7 +64,6 @@ text-align:center;
     height: 550px;
     margin-bottom: 50px;
 }
-
 
 /* Button */
 .btn-primary{
@@ -83,16 +82,12 @@ text-align:center;
 /* Quick List Image */
 .person-img-position{
     padding-top: 85px;
-    /* padding-left: 100px; */
-    /* margin: 0 100px; */
 }
 .third-row-second-container{
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
-    
 }
-
 .grid-img img{
     height: 250px;
     width: 250px;
@@ -114,9 +109,9 @@ text-align:center;
     padding-top: 150px;
 }
 .quick-list-title{
-padding-right: 80px;
-font-weight: 700;
-font-size: 45px;
+    padding-right: 80px;
+    font-weight: 700;
+    font-size: 45px;
 }
 .quick-list-about{
     
@@ -150,11 +145,11 @@ font-size: 45px;
 }
 .btn-tansform{
     width: 200px;
-height: 100px;
-  background-color:#FF900E;
-  border: 1px solid rgb(247, 241, 241);
-  border-radius: 5px;
-  transform: translate(10px,-80px);
+    height: 100px;
+    background-color:#FF900E;
+    border: 1px solid rgb(247, 241, 241);
+    border-radius: 5px;
+    transform: translate(10px,-80px);
 }
 .btn-description{
     font-weight: 400;
@@ -174,8 +169,8 @@ height: 100px;
 }
 .features-container img{
     padding-top: 20px;
- width: 508px;
-height:800px;
+    width: 508px;
+    height:800px;
 }
 .feature-card{
     width: 350px;
@@ -206,11 +201,9 @@ height:800px;
 
 /* End of Features And Enjoy Section */
 
-
 /* My facts */
 .section-facts{
-    margin-top: 130px; 
-    /* text-align: left; */
+    margin-top: 50px; 
     color: #151414;
     font-weight: 600;
     font-size: 40px;
@@ -220,7 +213,6 @@ height:800px;
     color: #737272;
     font-size: 16px;
     margin-left: 70px;
-    /* padding-right: 600px; */
     padding-bottom: 50px;
 }
  .facts-container{
@@ -251,8 +243,6 @@ height:800px;
     text-align: center;
     color: #424242;
     padding-top: 20px;
-    /* color: var(--text-color);
-    transition: 0.1s; */
 }
 /* Common Description */
 .description{
@@ -316,7 +306,7 @@ footer h2{
 .contact-title{
     margin-top: 130px; 
     text-align: center;
-    color: #df5a5a;
+    color: #e63737;
     font-weight: 700;
     font-size: 45px;
  }
@@ -386,13 +376,8 @@ footer h2{
     .third-row-second-container img {
         height: 100%;
         width: 100%;
-        /* margin-left: 50px; */
-        /* margin-right: 80px; */
         text-align: center;
         
-    }
-    .quick-list-description{
-        /* padding-left: 110px; */
     }
     .features-container{
         flex-direction: column;
@@ -402,15 +387,12 @@ footer h2{
     .feature-title{
         font-weight: 600;
         font-size: 42.5px;
-        /* margin-right: 150px; */
         padding-bottom: 80px;
     
     }
     
     .feature-description{
         padding-bottom: 20px;
-        /* padding-right: 20px; */
-
     }
     .features-container img{
         height: 100%;
@@ -418,18 +400,12 @@ footer h2{
     }
     .facts-container{
         flex-direction: column;
-        /* margin-left: 150px; */
     }
     .facts-section-description{
-       
         margin-left: 10px; 
-       
-       
     }
     .section-facts{
-        /* padding: 0, 50px; */
         justify-items: center;
-        /* padding: 0 32%; */
     }
     .sponsors-container{
         flex-direction: column;
@@ -441,12 +417,10 @@ footer h2{
     
     .contact-box{
         flex-direction: column;
-        /* padding: 0 45px; */
         
     }
     footer{
         height: 160px;
-        /* width: 300px; */
     }
     
 }
@@ -466,9 +440,7 @@ footer h2{
     }
     nav ul{
         flex-direction: column;
-        /* gap: 20px; */
         align-items: start;
-        /* padding-right: 60px; */
     }
     .quick-list{
         flex-direction: column;
@@ -485,9 +457,6 @@ footer h2{
         text-align: center;
         
     }
-    .quick-list-description{
-        /* padding-left: 110px; */
-    }
     .features-container{
         flex-direction: column;
         justify-content: center;
@@ -498,15 +467,12 @@ footer h2{
     .feature-title{
         font-weight: 600;
         font-size: 42.5px;
-        /* margin-right: 150px; */
         padding-bottom: 80px;
     
     }
     
     .feature-description{
         padding-bottom: 20px;
-        /* padding-right: 20px; */
-
     }
     .features-container img{
         height: 100%;
@@ -515,21 +481,14 @@ footer h2{
     .facts-container{
         flex-direction: column;
         grid-template-columns: repeat(2, 1fr);
-        
-        /* margin-left: 150px; */
     }
     .facts-section-description{
-       
         margin-left: 10px; 
-       
-       
     }
     .section-facts{
-        /* padding: 0, 50px; */
         justify-items: center;
-        /* padding: 0 32%; */
+
     }
-    /* grid-template-columns: repeat(2, 1fr); */
     .sponsors-container{
         flex-direction: column;
         align-content: space-around;
@@ -541,15 +500,10 @@ footer h2{
     
     .contact-box{
         flex-direction: column;
-        /* padding: 0 45px; */
         
     }
     footer{
         height: 160px;
-        /* width: 300px; */
     }
     
-}
-.hide{
-    display: none;
 }
